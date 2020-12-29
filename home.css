@@ -11,14 +11,11 @@ body {
 
 /* fonts */
 
-h4 {
-    font-family: 'Courgette', cursive;
-}
+h4 {}
 
 h5 {
-    font-family: 'Philosopher', sans-serif;
-    margin: 0%!important;
-    padding-bottom: 5px;
+    margin-top: 5px!important;
+    padding-bottom: 3px;
 }
 
 .font {
@@ -194,6 +191,7 @@ span {
 
 .shopbanner {
     height: 110px!important;
+    margin-bottom: 24px!important;
 }
 
 .banner img {
