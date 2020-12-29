@@ -1,0 +1,59 @@
+/* navbar */
+
+.sidenav {
+    padding-top: 70px;
+    width: 250px;
+}
+
+.nav {
+    background-color: yellow!important;
+}
+
+.navbar-fixed {
+    background-color: #e3d616!important;
+    height: 45px!important;
+}
+
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    transition: all .4s ease-in-out;
+}
+
+.sidenav,
+.navbar-fixed {
+    box-shadow: none!important;
+    webkit-box-shadow: none!important;
+}
+
+.brand-logo {}
+
+.menu {
+    color: rgb(2, 61, 46);
+    font-size: 27px!important;
+}
+
+.location {
+    color: #e64040;
+    /* fallback for old browsers */
+    color: -webkit-linear-gradient(to bottom, #F9D423, #FF4E50);
+    /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to bottom, #F9D423, #FF4E50);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 30px!important;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 5px;
+}
+
+nav i,
+nav [class^="mdi-"],
+nav [class*="mdi-"],
+nav i.material-icons {
+    line-height: 47px!important;
+}
+
+
+/* navbar */
