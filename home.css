@@ -75,6 +75,8 @@ h5 {
 
 .card {
     margin: 0%!important;
+    box-shadow: none!important;
+    align-items: center;
 }
 
 .food {
