@@ -10,7 +10,7 @@
 
 .shopimage,
 .shopimage img {
-    border-radius: 13px!important;
+    border-radius: 8px!important;
     height: 100px;
 }
 
@@ -23,6 +23,18 @@
 .card-body p {
     font-size: 12px!important;
     margin: 0%!important;
+}
+
+.rate {
+    display: inline-flex;
+}
+
+.rate span {
+    font-size: 13px;
+}
+
+.rate p {
+    font-size: 15px;
 }
 
 
