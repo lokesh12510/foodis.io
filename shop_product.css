@@ -27,11 +27,10 @@ p {
 .sname {
     position: absolute;
     top: 150px;
-    width: 300px;
-    margin: 10px;
-    border-radius: 7px;
-    /* box-shadow: none!important; */
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10), 0 1px 5px 0 rgba(0, 0, 0, 0.4)!important;
+    width: 100%;
+    border-radius: 27px 27px 0px 0px;
+    box-shadow: none!important;
+    /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10), 0 1px 5px 0 rgba(0, 0, 0, 0.4)!important; */
 }
 
 .shop-name {
@@ -49,6 +48,7 @@ p {
     padding: 10px 20px!important;
     box-shadow: none!important;
     border-radius: 20px!important;
+    width: 100%;
 }
 
 .rating {
@@ -85,6 +85,10 @@ p {
     margin-top: 10px;
 }
 
+.fname {
+    min-height: 40px;
+}
+
 .food-image {
     width: 90px!important;
     height: 95px!important;
@@ -110,6 +114,10 @@ p {
 .rightside {
     margin-top: 1px;
     padding: 0px!important;
+}
+
+.btn {
+    width: 100px;
 }
 
 
