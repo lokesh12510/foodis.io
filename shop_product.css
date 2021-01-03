@@ -28,7 +28,7 @@ p {
     position: absolute;
     top: 150px;
     width: 100%;
-    border-radius: 40px 40px 0px 0px;
+    border-radius: 45px 45px 0px 0px;
     box-shadow: none!important;
     /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10), 0 1px 5px 0 rgba(0, 0, 0, 0.4)!important; */
 }
