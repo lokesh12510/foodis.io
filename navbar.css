@@ -33,16 +33,6 @@
     font-size: 27px!important;
 }
 
-.location {
-    color: #e64040;
-    /* fallback for old browsers */
-    color: -webkit-linear-gradient(to bottom, #F9D423, #FF4E50);
-    /* Chrome 10-25, Safari 5.1-6 */
-    color: linear-gradient(to bottom, #F9D423, #FF4E50);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    font-size: 30px!important;
-}
-
 .logo {
     width: 150px;
     margin-top: 5px;

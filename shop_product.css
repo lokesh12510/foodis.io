@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    background-color: ghostwhite!important;
 }
 
 col,
@@ -40,7 +41,7 @@ p {
 
 .card .card-content {
     padding: 0%;
-    padding: 8px 20px 0px 20px!important;
+    padding: 15px 20px 0px 20px!important;
 }
 
 .card-action {
@@ -79,6 +80,7 @@ p {
 
 .food {
     margin-top: 60px!important;
+    ;
 }
 
 .foodcard {
@@ -118,7 +120,73 @@ p {
 
 .btn {
     width: 100px;
+    height: 35px;
+    color: black;
+    background-color: #FFC529!important;
+    border-radius: 12px;
+    padding: 5px .2px;
+    margin: 0%!important;
+    box-shadow: -2px -1px 15px 7px rgb(255, 238, 10, .3)!important;
+}
+
+.qcard {
+    display: flex;
+    justify-items: center;
+}
+
+.addbtn {
+    width: 100px;
+    height: 35px;
+    border-radius: 12px;
+    position: absolute;
+    background-color: #FFC529!important;
+    text-align: center;
+    z-index: 1;
+    inset: 1;
+    transform: translateY(-5px);
+}
+
+.hide {
+    inset: 0;
+    background-color: chartreuse;
+    transition: .2s ease-in;
+}
+
+.quantitybtn {
+    padding: 0px 5px!important;
+}
+
+.quantity input {
+    transform: translateY(-10px);
+    border: none!important;
+    margin: 0%!important;
+    text-align: center;
 }
 
 
 /* menu */
+
+
+/* menubtn */
+
+.btn-floating.btn-large {
+    width: 130px;
+    height: 30px;
+}
+
+.fixed-action-btn {
+    padding: 0%;
+    right: 90px;
+}
+
+.btn-floating {
+    border-radius: 30px;
+    line-height: 30px;
+}
+
+.btn-floating.btn-large i {
+    line-height: 0%;
+}
+
+
+/* menubtn */
