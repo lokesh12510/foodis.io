@@ -175,8 +175,16 @@ p {
 }
 
 .fixed-action-btn {
+    position: fixed;
     padding: 0%;
-    right: 90px;
+    top: 90%;
+    left: 30%;
+}
+
+@media screen and (min-width:350px) {
+    .fixed-action-btn {
+        left: 35%;
+    }
 }
 
 .btn-floating {
@@ -190,3 +198,27 @@ p {
 
 
 /* menubtn */
+
+
+/* footbar */
+
+.footbar {
+    position: fixed;
+    top: 90%;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px;
+}
+
+.footbar li a {
+    font-size: 25px;
+}
+
+.fixed-bottom {
+    background-color: rgb(173, 21, 52);
+}
+
+
+/* footbar */
