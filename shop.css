@@ -2,6 +2,7 @@
 
 .shopsection {
     margin-top: 60px!important;
+    margin-bottom: 70px;
 }
 
 .card {
@@ -68,3 +69,7 @@
 
 
 /* shop */
+
+.tabs .tab {
+    line-height: 60px;
+}
