@@ -64,8 +64,12 @@ nav i.material-icons {
     color: black;
 }
 
+.page-footer>nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 nav ul a {
-    padding: 0px 28px!important;
     color: #000000;
 }
 
