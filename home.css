@@ -119,7 +119,7 @@ span {
 .card-image {
     min-height: 65px!important;
     min-width: 70px!important;
-    background-color: rgb(241, 240, 240);
+    background-color: transparent;
     font-family: 'Satisfy', cursive;
     text-transform: capitalize;
 }
