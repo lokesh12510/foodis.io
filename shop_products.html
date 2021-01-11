@@ -8,10 +8,10 @@
     <link rel="shortcut icon" href="LogoNew2.jpg" type="image/x-icon">
 
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="shop_product.css">
     <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="font/flaticon.css">
+    <!-- <link rel="stylesheet" href="font/flaticon.css"> -->
 
     <!-- fonts -->
 
@@ -21,6 +21,26 @@
     <!-- fonts -->
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Berkshire+Swash&family=Courgette&family=Hind+Madurai&family=Kaushan+Script&family=Philosopher:ital@1&family=Satisfy&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--Import materialize.css-->
+
+    <style>
+        .carousel {
+            height: 100vh!important;
+        }
+        
+        .carousel .carousel-item {
+            width: 100%;
+        }
+        
+        .carousel-item {
+            max-width: 390px;
+        }
+    </style>
 </head>
 
 <body>
@@ -75,163 +95,470 @@
         </div>
 
 
-        <div class="menu">
-            <div class="food">
-                <h6 class="center"><b>Recommended</b></h6>
-                <div class="row">
 
-                    <!-- food container -->
-                    <div class="col s12">
-                        <div class="foodcard">
-                            <div class="fcard">
-                                <div class="col s4">
-                                    <div class="food-image">
-                                        <img src="images/brooke-lark-HjWzkqW1dgI-unsplash.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col s8 rightside">
-                                    <div class="card-body fname">
-                                        <p class="food-name"> Chicken Biriyani - Indian Style</p>
-                                    </div>
-                                    <div class="food-footer">
-                                        <div class="rate">
-                                            <p><b>₹230</b></p>
+        <!-- recommended list  -->
+        <div class="menu" style="transform: translateY(40px);">
+            <div class="food">
+
+                <ul id="tabs" class="tabs">
+
+                    <li class="tab col s3"><a href="#swipe-1">starterr</a></li>
+
+                    <li class="tab col s3"><a href="#swipe-2">Dinner</a></li>
+
+                    <li class="tab col s3"><a href="#swipe-3">combo</a></li>
+
+                    <li class="tab col s3"><a href="#swipe-4">Delight</a></li>
+
+
+                </ul>
+
+                <div id="swipe-1">
+
+                    <h6 class="center"><b></b></h6>
+                    <div class="row" style="max-width: 400px;">
+
+                        <!-- food container -->
+
+                        <div class="col s12">
+                            <div class="foodcard">
+                                <div class="fcard">
+                                    <div class="col s4">
+                                        <div class="food-image item">
+                                            <img src="images/brooke-lark-HjWzkqW1dgI-unsplash.jpg" alt="">
                                         </div>
-                                        <div class="btn">
-                                            <div id="qbtn" class="addbtn hide" onclick="hide()">ADD</div>
-                                            <div class="qcard">
-                                                <div class="quantitybtn">
-                                                    <span class="material-icons">add_circle</span>
+                                    </div>
+                                    <div class="col s8 rightside">
+                                        <div class="card-body fname">
+                                            <p class="food-name">Soup</p>
+                                        </div>
+                                        <div class="food-footer">
+                                            <div class="rate">
+                                                <p><b>₹ 200</b></p>
+                                                <p></p>
+
+                                                <div class="btn">
+                                                    <div class="qcard">
+                                                        <div class="quantitybtn">
+                                                            <a href="#">
+                                                                <span class="material-icons black-text">add_circle</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="quantity">
+                                                            <input type="text" value="1" maxlength="1" readonly>
+                                                        </div>
+                                                        <div class="quantitybtn">
+                                                            <a href="#">
+                                                                <span class="material-icons black-text">remove_circle</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="quantity">
-                                                    <input type="text" value="1" maxlength="1" readonly>
-                                                </div>
-                                                <div class="quantitybtn">
-                                                    <span class="material-icons">remove_circle</span>
-                                                </div>
+
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- food container -->
-                    <!-- food container -->
-                    <div class="col s12">
-                        <div class="foodcard">
-                            <div class="fcard">
-                                <div class="col s4">
-                                    <div class="food-image">
-                                        <img src="images/brooke-lark-HjWzkqW1dgI-unsplash.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col s8 rightside">
-                                    <div class="card-body fname">
-                                        <p class="food-name"> Chicken Biriyani - Indian Style</p>
-                                    </div>
-                                    <div class="food-footer">
-                                        <div class="rate">
-                                            <p><b>₹230</b></p>
+
+
+                        <div class="col s12">
+                            <div class="foodcard">
+                                <div class="fcard">
+                                    <div class="col s4">
+                                        <div class="food-image item">
+                                            <img src="images/brooke-lark-HjWzkqW1dgI-unsplash.jpg" alt="">
                                         </div>
-                                        <div class="btn">
-                                            <div id="qbtn" class="addbtn" onclick="hide()">ADD</div>
-                                            <div class="qcard">
-                                                <div class="quantitybtn">
-                                                    <span class="material-icons">add_circle</span>
+                                    </div>
+                                    <div class="col s8 rightside">
+                                        <div class="card-body fname">
+                                            <p class="food-name">Ice Cream</p>
+                                        </div>
+                                        <div class="food-footer">
+                                            <div class="rate">
+                                                <p><b>₹ 200</b></p>
+                                                <p></p>
+
+                                                <div class="btn">
+                                                    <div class="qcard">
+                                                        <div class="quantitybtn">
+                                                            <a href="#">
+                                                                <span class="material-icons black-text">add_circle</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="quantity">
+                                                            <input type="text" value="1" maxlength="1" readonly>
+                                                        </div>
+                                                        <div class="quantitybtn">
+                                                            <a href="#">
+                                                                <span class="material-icons black-text">remove_circle</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="quantity">
-                                                    <input type="text" value="1" maxlength="1" readonly>
-                                                </div>
-                                                <div class="quantitybtn">
-                                                    <span class="material-icons">remove_circle</span>
-                                                </div>
+
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- food container -->
-                    <!-- food container -->
-                    <div class="col s12">
-                        <div class="foodcard">
-                            <div class="fcard">
-                                <div class="col s4">
-                                    <div class="food-image">
-                                        <img src="images/brooke-lark-HjWzkqW1dgI-unsplash.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col s8 rightside">
-                                    <div class="card-body fname">
-                                        <p class="food-name"> Chicken Biriyani - Indian Style</p>
-                                    </div>
-                                    <div class="food-footer">
-                                        <div class="rate">
-                                            <p><b>₹230</b></p>
+                        <div class="col s12">
+                            <div class="foodcard">
+                                <div class="fcard">
+                                    <div class="col s4">
+                                        <div class="food-image item">
+                                            <img src="images/brooke-lark-HjWzkqW1dgI-unsplash.jpg" alt="">
                                         </div>
-                                        <div class="btn">
-                                            <div id="qbtn" class="addbtn" onclick="hide()">ADD</div>
-                                            <div class="qcard">
-                                                <div class="quantitybtn">
-                                                    <span class="material-icons">add_circle</span>
+                                    </div>
+                                    <div class="col s8 rightside">
+                                        <div class="card-body fname">
+                                            <p class="food-name">Ice Cream</p>
+                                        </div>
+                                        <div class="food-footer">
+                                            <div class="rate">
+                                                <p><b>₹ 200</b></p>
+                                                <p></p>
+
+                                                <div class="btn">
+                                                    <div class="qcard">
+                                                        <div class="quantitybtn">
+                                                            <a href="#">
+                                                                <span class="material-icons black-text">add_circle</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="quantity">
+                                                            <input type="text" value="1" maxlength="1" readonly>
+                                                        </div>
+                                                        <div class="quantitybtn">
+                                                            <a href="#">
+                                                                <span class="material-icons black-text">remove_circle</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="quantity">
-                                                    <input type="text" value="1" maxlength="1" readonly>
-                                                </div>
-                                                <div class="quantitybtn">
-                                                    <span class="material-icons">remove_circle</span>
-                                                </div>
+
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- food container -->
-                    <!-- food container -->
-                    <div class="col s12">
-                        <div class="foodcard">
-                            <div class="fcard">
-                                <div class="col s4">
-                                    <div class="food-image">
-                                        <img src="images/brooke-lark-HjWzkqW1dgI-unsplash.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col s8 rightside">
-                                    <div class="card-body fname">
-                                        <p class="food-name"> Chicken Biriyani - Indian Style</p>
-                                    </div>
-                                    <div class="food-footer">
-                                        <div class="rate">
-                                            <p><b>₹230</b></p>
+                        <div class="col s12">
+                            <div class="foodcard">
+                                <div class="fcard">
+                                    <div class="col s4">
+                                        <div class="food-image item">
+                                            <img src="images/brooke-lark-HjWzkqW1dgI-unsplash.jpg" alt="">
                                         </div>
-                                        <div class="btn">
-                                            <div id="qbtn" class="addbtn" onclick="hide()">ADD</div>
-                                            <div class="qcard">
-                                                <div class="quantitybtn">
-                                                    <span class="material-icons">add_circle</span>
+                                    </div>
+                                    <div class="col s8 rightside">
+                                        <div class="card-body fname">
+                                            <p class="food-name">Ice Cream</p>
+                                        </div>
+                                        <div class="food-footer">
+                                            <div class="rate">
+                                                <p><b>₹ 200</b></p>
+                                                <p></p>
+
+                                                <div class="btn">
+                                                    <div class="qcard">
+                                                        <div class="quantitybtn">
+                                                            <a href="#">
+                                                                <span class="material-icons black-text">add_circle</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="quantity">
+                                                            <input type="text" value="1" maxlength="1" readonly>
+                                                        </div>
+                                                        <div class="quantitybtn">
+                                                            <a href="#">
+                                                                <span class="material-icons black-text">remove_circle</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="quantity">
-                                                    <input type="text" value="1" maxlength="1" readonly>
-                                                </div>
-                                                <div class="quantitybtn">
-                                                    <span class="material-icons">remove_circle</span>
-                                                </div>
+
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+
                     </div>
-                    <!-- food container -->
                 </div>
+
+                <div id="swipe-2">
+
+                    <h6 class="center"><b></b></h6>
+                    <div class="row" style="max-width: 400px;">
+
+                        <!-- food container -->
+
+                        <div class="col s12">
+                            <div class="foodcard">
+                                <div class="fcard">
+                                    <div class="col s4">
+                                        <div class="food-image item">
+                                            <img src="images/brooke-lark-HjWzkqW1dgI-unsplash.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col s8 rightside">
+                                        <div class="card-body fname">
+                                            <p class="food-name">Shawarmaa</p>
+                                        </div>
+                                        <div class="food-footer">
+                                            <div class="rate">
+                                                <p><b>₹ 902</b></p>
+                                                <p></p>
+
+                                                <div class="btn" id="add-section-26">
+                                                    <div>
+                                                        <form method="POST" action="/addcart/">
+
+
+
+
+                                                            <a href="#" name="product_id">
+                                                                <div id="qbtn" value="26" class="addbtn add-to-cart black-text add2cart">ADD</div>
+                                                                <input type="text" id="26-product_id" value="1" hidden>
+                                                            </a>
+
+                                                        </form>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col s12">
+                            <div class="foodcard">
+                                <div class="fcard">
+                                    <div class="col s4">
+                                        <div class="food-image item">
+                                            <img src="images/brooke-lark-HjWzkqW1dgI-unsplash.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col s8 rightside">
+                                        <div class="card-body fname">
+                                            <p class="food-name">Milk Shake</p>
+                                        </div>
+                                        <div class="food-footer">
+                                            <div class="rate">
+                                                <p><b>₹ 150</b></p>
+                                                <p></p>
+
+                                                <div class="btn" id="add-section-35">
+                                                    <div>
+                                                        <form method="POST" action="/addcart/">
+
+
+
+
+                                                            <a href="#" name="product_id">
+                                                                <div id="qbtn" value="35" class="addbtn add-to-cart black-text add2cart">ADD</div>
+                                                                <input type="text" id="35-product_id" value="1" hidden>
+                                                            </a>
+
+                                                        </form>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div id="swipe-3">
+
+                    <h6 class="center"><b></b></h6>
+                    <div class="row" style="max-width: 400px;">
+
+                        <!-- food container -->
+
+                        <div class="col s12">
+                            <div class="foodcard">
+                                <div class="fcard">
+                                    <div class="col s4">
+                                        <div class="food-image item">
+                                            <img src="images/brooke-lark-HjWzkqW1dgI-unsplash.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col s8 rightside">
+                                        <div class="card-body fname">
+                                            <p class="food-name">Chicken Briyani</p>
+                                        </div>
+                                        <div class="food-footer">
+                                            <div class="rate">
+                                                <p><b>₹ 200</b></p>
+                                                <p></p>
+
+                                                <div class="btn" id="add-section-3">
+                                                    <div>
+                                                        <form method="POST" action="/addcart/">
+
+
+
+
+                                                            <a href="#" name="product_id">
+                                                                <div id="qbtn" value="3" class="addbtn add-to-cart black-text add2cart">ADD</div>
+                                                                <input type="text" id="3-product_id" value="1" hidden>
+                                                            </a>
+
+                                                        </form>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col s12">
+                            <div class="foodcard">
+                                <div class="fcard">
+                                    <div class="col s4">
+                                        <div class="food-image item">
+                                            <img src="images/brooke-lark-HjWzkqW1dgI-unsplash.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col s8 rightside">
+                                        <div class="card-body fname">
+                                            <p class="food-name">Chicken Biryani</p>
+                                        </div>
+                                        <div class="food-footer">
+                                            <div class="rate">
+                                                <p><b>₹ 200</b></p>
+                                                <p></p>
+
+                                                <div class="btn" id="add-section-34">
+                                                    <div>
+                                                        <form method="POST" action="/addcart/">
+
+
+
+
+                                                            <a href="#" name="product_id">
+                                                                <div id="qbtn" value="34" class="addbtn add-to-cart black-text add2cart">ADD</div>
+                                                                <input type="text" id="34-product_id" value="1" hidden>
+                                                            </a>
+
+                                                        </form>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div id="swipe-4">
+
+                    <h6 class="center"><b></b></h6>
+                    <div class="row" style="max-width: 400px;">
+
+                        <!-- food container -->
+
+                        <div class="col s12">
+                            <div class="foodcard">
+                                <div class="fcard">
+                                    <div class="col s4">
+                                        <div class="food-image item">
+                                            <img src="images/brooke-lark-HjWzkqW1dgI-unsplash.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col s8 rightside">
+                                        <div class="card-body fname">
+                                            <p class="food-name">Mutton Briyani</p>
+                                        </div>
+                                        <div class="food-footer">
+                                            <div class="rate">
+                                                <p><b>₹ 140</b></p>
+                                                <p></p>
+
+                                                <div class="btn" id="add-section-27">
+                                                    <div>
+                                                        <form method="POST" action="/addcart/">
+
+
+
+
+                                                            <a href="#" name="product_id">
+                                                                <div id="qbtn" value="27" class="addbtn add-to-cart black-text add2cart">ADD</div>
+                                                                <input type="text" id="27-product_id" value="1" hidden>
+                                                            </a>
+
+                                                        </form>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="spacer">
+                    &nbsp;
+                </div>
+
+
             </div>
         </div>
+        <a href="cart.html">
+            <div class="footer">
+
+                <div class="black-text">
+                    Items: 3 | ₹234
+                </div>
+                <div>
+                    Cart <i class="material-icons">arrow_forward</i>
+                </div>
+
+            </div>
+        </a>
+
+
     </div>
+    <div class="spacer">
+        &nbsp;
+    </div>
+
     <!-- footer -->
     <footer class="page-footer">
         <nav>
@@ -239,13 +566,20 @@
                 <li><a href="index.html" class="active"><i class="material-icons">home</i></a></li>
                 <li><a href="#"><i class="material-icons">search</i></a></li>
                 <li><a href="cart.html"><i class="material-icons">shopping_bag</i></a></li>
-                <li><a href="#"><i class="material-icons">account_circle</i></a></li>
+                <li><a href="profile.html"><i class="material-icons">account_circle</i></a></li>
             </ul>
         </nav>
     </footer>
     <!-- footer -->
 
-
+    <script>
+        $(document).ready(function() {
+            $('ul.tabs').tabs({
+                swipeable: true,
+                responsiveThreshold: 1920
+            });
+        });
+    </script>
 
 
     <script>
@@ -306,9 +640,6 @@
 
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <!-- Compiled and minified JavaScript -->
-    <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 
 </html>

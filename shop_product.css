@@ -31,7 +31,7 @@ p {
 
 .sname {
     position: absolute;
-    top: 150px;
+    top: 140px;
     width: 100%;
     border-radius: 45px 45px 0px 0px;
     box-shadow: none!important;
@@ -76,19 +76,28 @@ p {
 /* menu */
 
 
+/* tabs */
+
+.tabs .tab a {
+    color: black;
+}
+
+
+/* tabs */
+
+
 /* 
 .menu {
     margin: 25px 5px 0px 5px;
     padding: 5px;
 } */
 
-.food {
-    margin-top: 60px!important;
-    ;
-}
-
 .foodcard {
     margin-top: 10px;
+    max-width: 430px;
+    width: 100%;
+    height: 100px;
+    color: black!important;
 }
 
 .fname {
@@ -117,6 +126,12 @@ p {
     padding: 5px;
 }
 
+.rate {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .rightside {
     margin-top: 1px;
     padding: 0px!important;
@@ -126,7 +141,7 @@ p {
     width: 100px;
     height: 35px;
     color: black;
-    background-color: #FFC529!important;
+    background-color: rgb(254 214 21)!important;
     border-radius: 12px;
     padding: 5px .2px;
     margin: 0%!important;
@@ -143,7 +158,7 @@ p {
     height: 35px;
     border-radius: 12px;
     position: absolute;
-    background-color: #FFC529!important;
+    background-color: rgb(254 214 21)!important;
     text-align: center;
     z-index: 1;
     /* inset: 0; */
@@ -187,6 +202,51 @@ p {
 
 .tabs .tab {
     line-height: 60px;
+}
+
+.tabs .indicator {
+    background-color: #ff9800!important;
+}
+
+.footer {
+    display: flex;
+    position: fixed;
+    left: 0px;
+    margin: 0% 10px;
+    bottom: 60px;
+    justify-content: space-between;
+    padding: 15px;
+    width: 93%;
+    height: 40px;
+    background: #F7971E;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD200, #F7971E);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 7px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.footer i {
+    vertical-align: middle;
+    padding-bottom: 3px;
+    animation: next 1s linear infinite;
+}
+
+@keyframes next {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
 }
 
 @media screen and (min-width:350px) {

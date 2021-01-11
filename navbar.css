@@ -15,7 +15,7 @@ nav {
 }
 
 .navbar-fixed {
-    position: fixed;
+    position: fixed!important;
     top: 0;
     transition: all .4s ease-in-out;
 }
@@ -26,7 +26,10 @@ nav {
     webkit-box-shadow: none!important;
 }
 
-.brand-logo {}
+.spacer {
+    width: 100%;
+    height: 55px;
+}
 
 .menu {
     color: rgb(2, 61, 46);
@@ -49,7 +52,7 @@ nav i.material-icons {
 /* navbar */
 
 
-/* footer */
+/* footer navbar */
 
 .page-footer {
     padding: 0%!important;
@@ -70,12 +73,20 @@ nav i.material-icons {
 }
 
 nav ul a {
-    color: #000000;
+    color: #000000!important;
 }
 
 .active {
-    color: #ee6e73;
+    color: #ff9800!important;
 }
 
 
-/* footer */
+/* footer navbar*/
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+    /* Remove scrollbar space */
+}
